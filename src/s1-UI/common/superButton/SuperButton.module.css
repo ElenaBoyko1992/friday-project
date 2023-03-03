@@ -1,0 +1,19 @@
+.default {
+    background-color: #2a5f2a;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    letter-spacing: 2px;
+}
+.default:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.default:disabled {
+    opacity: 0.6;
+}
+
+.red {
+    background: red;
+}
+
