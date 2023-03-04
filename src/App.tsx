@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import {Route, Routes} from "react-router-dom";
+import {NavLink, Route, Routes} from "react-router-dom";
 import Test from "./s1-UI/Test";
 
 function App() {
     return (
         <div className="App">
+            <NavLink to={'test'}>TestPage</NavLink>
             <Routes>
                 <Route path={'/login'} element={<div>логинизация</div>}/>
                 <Route path={'/registration'} element={<div>регистрация</div>}/>
