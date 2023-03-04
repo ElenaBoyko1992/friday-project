@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import {NavLink, Route, Routes} from "react-router-dom";
+import {Navigate, NavLink, Route, Routes} from "react-router-dom";
 import Test from "./s1-UI/Test";
 
 function App() {
     return (
         <div className="App">
-            <NavLink to={'test'}>TestPage</NavLink>
+
             <Routes>
+                <Route path={'/'} element={<Navigate to={'/test'}/>}/>
                 <Route path={'/login'} element={<div>логинизация</div>}/>
                 <Route path={'/registration'} element={<div>регистрация</div>}/>
                 <Route path={'/profile'} element={<div>профиль</div>}/>
