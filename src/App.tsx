@@ -1,9 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import SuperButton from "./s1-UI/common/superButton/SuperButton";
-import SuperInputText from "./s1-UI/common/superInputText/SuperInputText";
-import SuperCheckbox from "./s1-UI/common/superCheckbox/SuperCheckbox";
 import {Route, Routes} from "react-router-dom";
 import Test from "./s1-UI/Test";
 
